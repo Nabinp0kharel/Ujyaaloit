@@ -1,0 +1,19 @@
+/* Spacious discussion invitation with a magnetic, elastic connection. */
+.home-section.discuss-section{position:relative;isolation:isolate;min-height:85vh;min-height:85svh;display:flex;align-items:center;padding:110px 5.5%;background:var(--paper-shade);overflow:hidden;overflow:clip}
+.discuss-section .contact-strip-inner{position:relative;width:100%;gap:70px}
+.discuss-section .section-title{font-size:clamp(44px,5.7vw,80px);line-height:1.08;letter-spacing:-.045em;max-width:850px;margin-bottom:30px}
+.discuss-section .section-copy{font-size:clamp(17px,1.5vw,21px)}
+.magnetic-target{position:relative;z-index:2;flex-shrink:0;will-change:transform}
+.discuss-section .discuss-button{display:inline-flex;align-items:center;justify-content:center;gap:30px;min-height:84px;min-width:260px;padding:24px 32px;border-radius:100px;background:var(--accent);border:1px solid var(--accent);color:#fff;font-size:20px;font-weight:500;white-space:nowrap;box-shadow:none;position:relative;transition:background .2s}
+.discuss-section .discuss-button:hover{background:var(--accent);color:#fff}
+.discuss-button>span:last-child{font-size:28px}
+.discuss-button:focus-visible{outline:2px solid var(--accent);outline-offset:7px}
+.discuss-connection{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;fill:var(--accent);opacity:0;transition:opacity .18s}
+.discuss-section.is-magnetic .discuss-connection{opacity:1}
+@media(max-width:900px){.discuss-section .contact-strip-inner{flex-direction:column;align-items:flex-start;gap:52px}.home-section.discuss-section{min-height:80svh;padding:80px 6%}.discuss-section .discuss-button{min-height:74px;min-width:240px;font-size:18px}}
+@media(prefers-reduced-motion:reduce){.magnetic-target{will-change:auto}.discuss-connection{display:none}.discuss-section .discuss-button{transition:none}}
+
+/* Fine elastic strands share the button's red, with no solid web between them. */
+.discuss-connection{transition:none;fill:none}
+.discuss-thread{fill:none;stroke:var(--accent);stroke-linecap:round;vector-effect:non-scaling-stroke}
+.discuss-cursor{fill:var(--accent);stroke:none}

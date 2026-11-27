@@ -1,0 +1,74 @@
+[
+  {
+    "asset": "ai-knowledge.webp",
+    "source": "https://www.pexels.com/photo/3184291/",
+    "download": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "description": "Colleagues greeting each other during a team meeting.",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "cloud-infrastructure.webp",
+    "source": "https://www.pexels.com/photo/5092815/",
+    "download": "https://images.pexels.com/photos/5092815/pexels-photo-5092815.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "description": "Computer workstation beside server racks in a data centre.",
+    "width": 1600,
+    "height": 1065
+  },
+  {
+    "asset": "design-workspace.webp",
+    "source": "https://www.pexels.com/photo/196644/",
+    "download": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "description": "Hand-drawn website wireframes in a notebook beside a phone and pens.",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "device-support.webp",
+    "source": "https://www.pexels.com/photo/1181244/",
+    "download": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "description": "Developer using a laptop and smartphone at a bright desk.",
+    "width": 1600,
+    "height": 1068
+  },
+  {
+    "asset": "cybersecurity.webp",
+    "source": "https://www.pexels.com/photo/5380642/",
+    "download": "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "description": "Close-up photograph of a computer screen displaying a security interface.",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "software-commerce.webp",
+    "source": "https://www.pexels.com/photo/1181675/",
+    "download": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "description": "Developer writing code on a laptop connected to desktop monitors.",
+    "width": 1600,
+    "height": 1068
+  },
+  {
+    "asset": "data-analytics.webp",
+    "source": "https://www.pexels.com/photo/590022/",
+    "download": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "description": "Business reports and charts being reviewed at a desk.",
+    "width": 1600,
+    "height": 1060
+  },
+  {
+    "asset": "business-systems.webp",
+    "source": "https://www.pexels.com/photo/3184465/",
+    "download": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "description": "Two colleagues shaking hands across a desk with a laptop.",
+    "width": 1600,
+    "height": 1067
+  }
+]

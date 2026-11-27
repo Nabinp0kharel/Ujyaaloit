@@ -1,0 +1,25 @@
+/* A full-screen roots section, within the shared white and red theme. */
+.nepal-story{position:relative;isolation:isolate;box-sizing:border-box;width:100vw;max-width:none;margin-inline:calc(50% - 50vw);min-height:100vh;min-height:100svh;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,1fr);align-items:center;gap:clamp(36px,6vw,100px);padding:clamp(64px,10vh,130px) max(5.5vw,calc((100vw - 1280px)/2));border-top:1px solid var(--paper-line);border-bottom:1px solid var(--paper-line);background:var(--paper);overflow:hidden;overflow:clip}
+.nepal-copy{position:relative;z-index:1;max-width:710px}
+.nepal-story .section-title{margin-bottom:32px;font-size:clamp(48px,6.7vw,94px);line-height:1.05;letter-spacing:-.05em}
+.nepal-copy .section-copy{max-width:650px;line-height:1.8;font-size:clamp(16px,1.3vw,19px)}
+.nepal-copy .nepal-note{margin-top:30px;padding-left:20px;border-left:2px solid var(--accent);font-size:15px;max-width:430px}
+.nepal-parent{position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;min-width:0;min-height:clamp(330px,36vw,520px)}
+.nepal-parent>.section-label,.nepal-parent>.dak-logo-frame,.nepal-parent>.dak-caption{position:relative;z-index:1}
+.nepal-parent .section-label{margin-bottom:25px}
+.dak-logo-frame{width:100%;max-width:230px;margin:0 auto;padding:18px 12px;background:var(--paper)}
+.dak-logo-frame img{display:block;width:100%;max-width:100%;height:auto}
+.dak-caption{font-size:14px;color:var(--muted);margin:20px 0 0}
+.roots-motion{position:absolute;inset:50% auto auto 50%;transform:translate(-50%,-50%);width:clamp(350px,43vw,610px);max-width:none;pointer-events:none;z-index:0}
+.roots-motion svg{display:block;width:100%;height:auto;overflow:visible;stroke:var(--accent);stroke-width:1}
+.roots-orbit{transform-origin:280px 280px;animation:roots-orbit 65s linear infinite}
+.roots-orbit>circle{stroke-opacity:.12}
+.roots-orbit .roots-track{stroke-opacity:.38;stroke-dasharray:45 1400;stroke-width:1.5}
+.roots-orbit .roots-dot{fill:var(--accent);stroke:none;fill-opacity:.65}
+.roots-orbit .roots-dot-small{fill-opacity:.3}
+.roots-mountains{stroke-opacity:.22;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;animation:roots-breathe 8s ease-in-out infinite}
+@keyframes roots-orbit{to{transform:rotate(360deg)}}
+@keyframes roots-breathe{0%,100%{opacity:.55;transform:translateY(5px)}50%{opacity:1;transform:translateY(-5px)}}
+@media(min-width:1800px){.nepal-story{gap:100px}}
+@media(max-width:760px){.nepal-story{grid-template-columns:minmax(0,1fr);gap:28px;padding:64px 6%;align-content:center}.nepal-story .section-title{font-size:clamp(48px,10vw,72px);margin-bottom:25px}.nepal-copy .nepal-note{margin-top:24px}.nepal-parent{min-height:320px}.roots-motion{width:370px}.dak-logo-frame{max-width:200px}.nepal-parent .section-label{margin-bottom:14px}.dak-caption{margin-top:14px}}
+@media(prefers-reduced-motion:reduce){.roots-orbit,.roots-mountains{animation:none}}

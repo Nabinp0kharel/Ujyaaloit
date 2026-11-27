@@ -1,0 +1,13 @@
+# Unrelated / temporary folders
+posters/
+tmp/
+
+# Ignore unrelated files in web pics/, keep only the image used by the site
+web pics/*
+!web pics/photo 1(landing).png
+
+# Editor & OS files
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
